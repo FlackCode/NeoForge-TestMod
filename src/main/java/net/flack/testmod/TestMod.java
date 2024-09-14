@@ -1,5 +1,6 @@
 package net.flack.testmod;
 import net.flack.testmod.block.ModBlocks;
+import net.flack.testmod.item.ModCreativeModeTabs;
 import net.flack.testmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -43,6 +44,8 @@ public class TestMod
     {
         modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
