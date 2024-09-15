@@ -1,6 +1,7 @@
 package net.flack.testmod.block;
 
 import net.flack.testmod.TestMod;
+import net.flack.testmod.block.custom.MagicBlock;
 import net.flack.testmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -21,10 +22,14 @@ public class ModBlocks {
     public static final DeferredBlock<Block> BISMUTH_BLOCK = registerBlock("bismuth_block",
             () -> new Block(BlockBehaviour.Properties.of()
             .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
     public static final DeferredBlock<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
             BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
