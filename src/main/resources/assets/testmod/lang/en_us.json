@@ -2,11 +2,19 @@
   "item.testmod.bismuth": "Bismuth",
   "item.testmod.raw_bismuth": "Raw Bismuth",
   "item.testmod.chisel": "Chisel",
+  "item.testmod.radish": "Radish",
+  "item.testmod.frostfire_ice": "Frostfire Ice",
+  "item.testmod.starlight_ashes": "Starlight Ashes",
 
   "block.testmod.bismuth_block": "Block of Bismuth",
   "block.testmod.bismuth_ore": "Bismuth Ore",
   "block.testmod.magic_block": "Magic Block",
 
   "creativetab.testmod.bismuth_items": "Bismuth Items",
-  "creativetab.testmod.bismuth_blocks": "Bismuth Blocks"
+  "creativetab.testmod.bismuth_blocks": "Bismuth Blocks",
+
+  "tooltip.testmod.magic_block.tooltip": "This Block is very §9MAGICAL§r",
+  "tooltip.testmod.chisel": "§7Press §eShift§r §7for more Information§r",
+  "tooltip.testmod.chisel.shift_down": "§7This Item can chisel Blocks into Bricks§r",
+  "tooltip.testmod.radish.tooltip": "Tastes really great!"
 }
