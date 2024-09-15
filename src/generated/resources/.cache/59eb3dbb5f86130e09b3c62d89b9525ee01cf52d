@@ -1,0 +1,4 @@
+// 1.21.1	2024-09-15T19:15:07.5943462	Loot Tables
+dbe690507d3d031b0c29d6450f3b4affbe6c7464 data/testmod/loot_table/blocks/bismuth_block.json
+9cdecc49f931e0841369eaa0fc77137f9c653030 data/testmod/loot_table/blocks/bismuth_ore.json
+61e3e8f2c8dfe3faa10b926e2715427fdfac8ea3 data/testmod/loot_table/blocks/magic_block.json

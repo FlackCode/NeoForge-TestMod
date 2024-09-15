@@ -1,7 +1,7 @@
 {
-  "replace": false,
   "values": [
     "testmod:bismuth_block",
+    "testmod:magic_block",
     "testmod:bismuth_ore"
   ]
 }

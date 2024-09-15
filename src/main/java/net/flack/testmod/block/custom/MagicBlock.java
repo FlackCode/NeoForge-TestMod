@@ -1,6 +1,7 @@
 package net.flack.testmod.block.custom;
 
 import net.flack.testmod.item.ModItems;
+import net.flack.testmod.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
@@ -37,12 +38,16 @@ public class MagicBlock extends Block {
     @Override
     public void stepOn(Level level, BlockPos pos, BlockState state, Entity entity) {
         if (entity instanceof ItemEntity itemEntity) {
-            if (itemEntity.getItem().getItem() == ModItems.RAW_BISMUTH.get()) { //1st getItem gets item stack, 2nd gets the item itself
+            if (isValidItem(itemEntity.getItem())) {
                 itemEntity.setItem(new ItemStack(Items.DIAMOND, itemEntity.getItem().getCount()));
             }
         }
 
         super.stepOn(level, pos, state, entity);
+    }
+
+    private boolean isValidItem(ItemStack item) {
+        return item.is(ModTags.Items.TRANSFORMABLE_ITEMS); // return true if item thrown onto block has this tag
     }
 
     @Override
