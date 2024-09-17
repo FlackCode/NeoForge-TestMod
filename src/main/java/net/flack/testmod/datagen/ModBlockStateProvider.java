@@ -2,8 +2,12 @@ package net.flack.testmod.datagen;
 
 import net.flack.testmod.TestMod;
 import net.flack.testmod.block.ModBlocks;
+import net.flack.testmod.block.custom.BismuthLampBlock;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
+import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -35,6 +39,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.BISMUTH_PRESSURE_PLATE);
         blockItem(ModBlocks.BISMUTH_FENCE_GATE);
         blockItem(ModBlocks.BISMUTH_TRAPDOOR, "_bottom");
+
+        customLamp(ModBlocks.BISMUTH_LAMP, "bismuth_lamp_on", "bismuth_lamp_off");
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {
@@ -47,5 +53,20 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     private void blockItem(DeferredBlock<?> deferredBlock, String appendix) {
         simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("testmod:block/" + deferredBlock.getId().getPath() + appendix));
+    }
+
+    private void customLamp(DeferredBlock<?> block, String blockTextureOn, String blockTextureOff) {
+        getVariantBuilder(block.get()).forAllStates(state -> {
+           if (state.getValue(BismuthLampBlock.CLICKED)) {
+               return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll(blockTextureOn,
+                       ResourceLocation.fromNamespaceAndPath(TestMod.MOD_ID, "block/" + blockTextureOn)))};
+           } else {
+               return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll(blockTextureOff,
+                       ResourceLocation.fromNamespaceAndPath(TestMod.MOD_ID, "block/" + blockTextureOff)))};
+           }
+        });
+
+        simpleBlockItem(block.get(), models().cubeAll(blockTextureOn,
+                ResourceLocation.fromNamespaceAndPath(TestMod.MOD_ID, "block/" + blockTextureOn)));
     }
 }
