@@ -1,5 +1,6 @@
 package net.flack.testmod;
 import net.flack.testmod.block.ModBlocks;
+import net.flack.testmod.component.ModDataComponents;
 import net.flack.testmod.item.ModCreativeModeTabs;
 import net.flack.testmod.item.ModItems;
 import org.slf4j.Logger;
@@ -49,6 +50,8 @@ public class TestMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataComponents.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
