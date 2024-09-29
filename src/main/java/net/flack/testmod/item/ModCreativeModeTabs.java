@@ -33,6 +33,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BISMUTH_SHOVEL);
                         output.accept(ModItems.BISMUTH_HOE);
 
+                        output.accept(ModItems.BISMUTH_HAMMER);
 
                     }).build());
 
