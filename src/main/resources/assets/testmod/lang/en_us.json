@@ -13,6 +13,11 @@
   "item.testmod.bismuth_hoe": "Bismuth Hoe",
   "item.testmod.bismuth_hammer": "Bismuth Hammer",
 
+  "item.testmod.bismuth_helmet": "Bismuth Helmet",
+  "item.testmod.bismuth_chestplate": "Bismuth Chestplate",
+  "item.testmod.bismuth_leggings": "Bismuth Leggings",
+  "item.testmod.bismuth_boots": "Bismuth Boots",
+
   "block.testmod.bismuth_block": "Block of Bismuth",
   "block.testmod.bismuth_ore": "Bismuth Ore",
   "block.testmod.magic_block": "Magic Block",

@@ -1,7 +1,8 @@
-// 1.21.1	2024-09-28T22:26:24.0260665	Tags for minecraft:item mod id testmod
+// 1.21.1	2024-10-12T19:20:32.5463007	Tags for minecraft:item mod id testmod
 b4d5b58302aed9fcedd41464152d6566ad7d7350 data/minecraft/tags/item/axes.json
 41db894147cb4c203eb5176df5b0b66e9f6acb60 data/minecraft/tags/item/hoes.json
 77ca06594801cdedbb6bc97580aa0e5b7542e53e data/minecraft/tags/item/pickaxes.json
 bae34fe2b1f9cea216f8039e6b68d22e66b0f5aa data/minecraft/tags/item/shovels.json
 c60b12d36dd264ebda02ea01f085644c3a527f2c data/minecraft/tags/item/swords.json
+d9f51dce6cd1864415e66473408a23caaf6deadd data/minecraft/tags/item/trimmable_armor.json
 8380445b88ddf647c2f43526c388d212a1d9b13d data/testmod/tags/item/transformable_items.json
