@@ -4,6 +4,7 @@ import net.flack.testmod.TestMod;
 import net.flack.testmod.item.custom.ChiselItem;
 import net.flack.testmod.item.custom.FuelItem;
 import net.flack.testmod.item.custom.HammerItem;
+import net.flack.testmod.item.custom.ModArmorItem;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
@@ -56,7 +57,7 @@ public class ModItems {
                     new Item.Properties().attributes(PickaxeItem.createAttributes(ModToolTiers.BISMUTH, 7f, -3.5f))));
 
     public static final DeferredItem<ArmorItem> BISMUTH_HELMET = ITEMS.register("bismuth_helmet",
-            () -> new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+            () -> new ModArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                     new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(19))));
     public static final DeferredItem<ArmorItem> BISMUTH_CHESTPLATE = ITEMS.register("bismuth_chestplate",
             () -> new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
