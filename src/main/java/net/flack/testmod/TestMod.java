@@ -3,6 +3,7 @@ import net.flack.testmod.block.ModBlocks;
 import net.flack.testmod.component.ModDataComponents;
 import net.flack.testmod.item.ModCreativeModeTabs;
 import net.flack.testmod.item.ModItems;
+import net.flack.testmod.util.ModItemsProperties;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -87,7 +88,7 @@ public class TestMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
+            ModItemsProperties.addCustomItemProperties();
         }
     }
 }
