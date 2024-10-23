@@ -73,6 +73,9 @@ public class ModItems {
             () -> new AnimalArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN, false,
                     new Item.Properties().stacksTo(1)));
 
+    public static final DeferredItem<Item> BISMUTH_BOW = ITEMS.register("bismuth_bow",
+            () -> new BowItem(new Item.Properties().durability(500)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
