@@ -21,6 +21,9 @@
   "item.testmod.bismuth_horse_armor": "Bismuth Horse Armor",
   "item.testmod.bismuth_bow": "Bismuth Bow",
 
+  "item.testmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.testmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
   "block.testmod.bismuth_block": "Block of Bismuth",
   "block.testmod.bismuth_ore": "Bismuth Ore",
   "block.testmod.magic_block": "Magic Block",

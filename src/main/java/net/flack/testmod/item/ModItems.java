@@ -5,6 +5,7 @@ import net.flack.testmod.item.custom.ChiselItem;
 import net.flack.testmod.item.custom.FuelItem;
 import net.flack.testmod.item.custom.HammerItem;
 import net.flack.testmod.item.custom.ModArmorItem;
+import net.flack.testmod.sound.ModSounds;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
@@ -75,6 +76,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> BISMUTH_BOW = ITEMS.register("bismuth_bow",
             () -> new BowItem(new Item.Properties().durability(500)));
+
+    public static final DeferredItem<Item> BAR_BRAWL_MUSIC_DISC = ITEMS.register("bar_brawl_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

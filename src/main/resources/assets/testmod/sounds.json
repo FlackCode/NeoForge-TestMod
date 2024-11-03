@@ -4,5 +4,13 @@
     "sounds": [
       "testmod:chisel_use"
     ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "testmod:bar_brawl",
+        "stream": true
+      }
+    ]
   }
 }
