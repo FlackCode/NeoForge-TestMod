@@ -45,5 +45,7 @@
   "tooltip.testmod.magic_block.tooltip": "This Block is very §9MAGICAL§r",
   "tooltip.testmod.chisel": "§7Press §eShift§r §7for more Information§r",
   "tooltip.testmod.chisel.shift_down": "§7This Item can chisel Blocks into Bricks§r",
-  "tooltip.testmod.radish.tooltip": "Tastes really great!"
+  "tooltip.testmod.radish.tooltip": "Tastes really great!",
+
+  "effect.testmod.slimey": "Slimey"
 }

@@ -1,6 +1,7 @@
 package net.flack.testmod;
 import net.flack.testmod.block.ModBlocks;
 import net.flack.testmod.component.ModDataComponents;
+import net.flack.testmod.effect.ModEffects;
 import net.flack.testmod.item.ModCreativeModeTabs;
 import net.flack.testmod.item.ModItems;
 import net.flack.testmod.sound.ModSounds;
@@ -56,6 +57,8 @@ public class TestMod
         ModDataComponents.register(modEventBus);
 
         ModSounds.register(modEventBus);
+
+        ModEffects.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
