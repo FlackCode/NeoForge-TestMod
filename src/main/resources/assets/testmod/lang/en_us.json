@@ -51,5 +51,12 @@
   "tooltip.testmod.chisel.shift_down": "§7This Item can chisel Blocks into Bricks§r",
   "tooltip.testmod.radish.tooltip": "Tastes really great!",
 
-  "effect.testmod.slimey": "Slimey"
+  "effect.testmod.slimey": "Slimey",
+
+  "painting.testmod.world.title": "World",
+  "painting.testmod.world.author": "NanoAttack",
+  "painting.testmod.shrimp.title": "Shrimp",
+  "painting.testmod.shrimp.author": "NanoAttack",
+  "painting.testmod.saw_them.title": "Saw Them",
+  "painting.testmod.saw_them.author": "NanoAttack"
 }
