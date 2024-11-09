@@ -4,6 +4,7 @@ import net.flack.testmod.component.ModDataComponents;
 import net.flack.testmod.effect.ModEffects;
 import net.flack.testmod.item.ModCreativeModeTabs;
 import net.flack.testmod.item.ModItems;
+import net.flack.testmod.potion.ModPotions;
 import net.flack.testmod.sound.ModSounds;
 import net.flack.testmod.util.ModItemsProperties;
 import org.slf4j.Logger;
@@ -59,6 +60,8 @@ public class TestMod
         ModSounds.register(modEventBus);
 
         ModEffects.register(modEventBus);
+
+        ModPotions.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
