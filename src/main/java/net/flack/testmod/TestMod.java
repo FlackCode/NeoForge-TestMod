@@ -2,6 +2,7 @@ package net.flack.testmod;
 import net.flack.testmod.block.ModBlocks;
 import net.flack.testmod.component.ModDataComponents;
 import net.flack.testmod.effect.ModEffects;
+import net.flack.testmod.enchantment.ModEnchantmentEffects;
 import net.flack.testmod.item.ModCreativeModeTabs;
 import net.flack.testmod.item.ModItems;
 import net.flack.testmod.potion.ModPotions;
@@ -62,6 +63,8 @@ public class TestMod
         ModEffects.register(modEventBus);
 
         ModPotions.register(modEventBus);
+
+        ModEnchantmentEffects.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
