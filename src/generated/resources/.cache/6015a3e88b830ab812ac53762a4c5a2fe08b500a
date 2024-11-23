@@ -1,4 +1,4 @@
-// 1.21.1	2024-11-03T20:46:22.5620769	Item Models: testmod
+// 1.21.1	2024-11-23T16:38:35.6390989	Item Models: testmod
 bd40b1f60f98b5c3ed3c546e107764322fc90884 assets/testmod/models/item/bar_brawl_music_disc.json
 c8a61ab9d27d34dc4c074bad57e525de2c80762d assets/testmod/models/item/bismuth.json
 9112a8b21c5f53cc26c5b93768e8252e3fcae4ec assets/testmod/models/item/bismuth_axe.json
@@ -58,5 +58,6 @@ dccd5ff16944bacfe026003548a85e55068f587b assets/testmod/models/item/bismuth_swor
 07e057cd50aefbb9f71640f4c3b4187a248e22e7 assets/testmod/models/item/bismuth_wall.json
 b1b77c87db2bd012d2fe67607345096569f5eeb8 assets/testmod/models/item/frostfire_ice.json
 162e0c503d1dde6f3c2164585c940bc2cb0d7003 assets/testmod/models/item/radish.json
+96caa60bcd103ad26ad0845048be4866a153319f assets/testmod/models/item/radish_seeds.json
 29629a521ca4fc22b3dd518a1712d18bc55a2a2f assets/testmod/models/item/raw_bismuth.json
 d5de02c33b7e2779c85da978a41899c0d8ae15e5 assets/testmod/models/item/starlight_ashes.json

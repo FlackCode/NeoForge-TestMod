@@ -1,4 +1,4 @@
-// 1.21.1	2024-09-17T21:05:39.4987724	Loot Tables
+// 1.21.1	2024-11-23T16:38:35.6331067	Loot Tables
 dbe690507d3d031b0c29d6450f3b4affbe6c7464 data/testmod/loot_table/blocks/bismuth_block.json
 e2c95568a7eedef50950087cfed88a45e267a981 data/testmod/loot_table/blocks/bismuth_button.json
 6c4919cc4a6be622d8d04e49b9b1426b02e76042 data/testmod/loot_table/blocks/bismuth_door.json
@@ -12,3 +12,4 @@ f52226efc38c9d94125b08497bd719cf29b4412b data/testmod/loot_table/blocks/bismuth_
 8b17badfa23f460626e1e965e801cd4033c5e3c6 data/testmod/loot_table/blocks/bismuth_trapdoor.json
 194169e95227bd59264d9b08351bb26d646bb97e data/testmod/loot_table/blocks/bismuth_wall.json
 61e3e8f2c8dfe3faa10b926e2715427fdfac8ea3 data/testmod/loot_table/blocks/magic_block.json
+fad41737405703a8f429052667978fcf23aa32c1 data/testmod/loot_table/blocks/radish_crop.json
