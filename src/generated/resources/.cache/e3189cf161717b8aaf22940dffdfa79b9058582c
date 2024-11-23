@@ -1,4 +1,4 @@
-// 1.21.1	2024-11-23T16:38:35.637101	Block States: testmod
+// 1.21.1	2024-11-23T17:33:03.6089551	Block States: testmod
 d36a6b13f3f8f366db5492f661893b57e31a0fe0 assets/testmod/blockstates/bismuth_block.json
 053bdbcc69e751522ea6bb30caad9f1cc6a28b1b assets/testmod/blockstates/bismuth_button.json
 d82bf53d9feeb87208c10fc3f4c0533f0341eb66 assets/testmod/blockstates/bismuth_door.json
@@ -11,6 +11,7 @@ d732a9f2f87ac97b6e294c3bf7250de4572b7440 assets/testmod/blockstates/bismuth_pres
 73849f114e1f10fc3f3a59627a7254fd71d1c76a assets/testmod/blockstates/bismuth_stairs.json
 e4b1a34f18ab943e5e2055bca25556b9c6898a1f assets/testmod/blockstates/bismuth_trapdoor.json
 275ea79d851852d10bc8c5900563baf104a0eec3 assets/testmod/blockstates/bismuth_wall.json
+09bf141c0137da20407f41460f74f8b78c2c360a assets/testmod/blockstates/goji_berry_bush.json
 e74be35792306d17fb5b318ddd98e0a1affe5e47 assets/testmod/blockstates/magic_block.json
 fe92fcf0d0824ea4fca971de831b697c4e182397 assets/testmod/blockstates/radish_crop.json
 9f9490efe41b15036294fc3ba3506bae2102a8a4 assets/testmod/models/block/bismuth_block.json
@@ -46,6 +47,10 @@ fcd8a1931c18b6ae78f4e575eac0c62f816a77bd assets/testmod/models/block/bismuth_tra
 5bb1530727e33406288a1185bd9e6f48e6e89de7 assets/testmod/models/block/bismuth_wall_post.json
 3dcd620cb9526c2d6c2003390f9e6af2657295b1 assets/testmod/models/block/bismuth_wall_side.json
 b845bf4aaa1e5c5df5cec8a3ac196872ab4d8521 assets/testmod/models/block/bismuth_wall_side_tall.json
+3f34fb14265ed6d2ecc11221d6709267f203629f assets/testmod/models/block/goji_berry_bush_stage0.json
+1f3b4d92f7b8ac8deeee27f52a47c96a3f16465a assets/testmod/models/block/goji_berry_bush_stage1.json
+a4d28f078decd54fb938b5f4ccc7a81b078b96cd assets/testmod/models/block/goji_berry_bush_stage2.json
+705fbde72e5f17f186e2d04750628dcf837a3508 assets/testmod/models/block/goji_berry_bush_stage3.json
 9a06e54e22cd98054d399605ca2038951a99fa94 assets/testmod/models/block/magic_block.json
 11487c0fb807ad2cb5d6e0a57886fa9f17d5241a assets/testmod/models/block/radish_crop_stage0.json
 3cc48737cdec5a40c6422556db0e8214bfa46352 assets/testmod/models/block/radish_crop_stage1.json
